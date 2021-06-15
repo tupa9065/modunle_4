@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head>
+<head th:replace="/layout :: head">
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
@@ -9,7 +9,9 @@
 <p>
     <a th:href="@{/customer/create}">Add new customer</a>
 </p>
-<table>
+<p th:if="${message}" th:text="${message}"></p>
+<table id = "customers">
+    <thead>
     <tr>
         <th>#</th>
         <th>Name</th>
@@ -17,7 +19,10 @@
         <th>Address</th>
         <th>Edit</th>
         <th>Delete</th>
+        <th>View</th>
     </tr>
+    </thead>
+    <tbody>
     <tr th:each="customer,rowStat : ${customers}">
         <td th:text="${rowStat.count}"></td>
         <td th:text="${customer.name}"></td>
@@ -27,6 +32,8 @@
         <td><a th:href="@{/customer/{id}/delete(id=${customer.getId()})}">delete</a></td>
         <td><a th:href="@{/customer/{id}/view(id=${customer.getId()})}">view</a></td>
     </tr>
+    </tbody>
 </table>
 </body>
+<footer th:replace="/layout :: footer"></footer>
 </html>
