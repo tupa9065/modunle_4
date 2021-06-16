@@ -11,7 +11,7 @@
 </p>
 <p th:if="${message}" th:text="${message}"></p>
 <div id="form">
-<form method="post" th:action="@{/customer/save} "th:object="${customer}" novalidate>
+<form method="post" th:action="@{/customer/save} "th:object="${customerForm}" novalidate="novalidate" enctype="multipart/form-data">
 
     <table>
         <tr>
@@ -29,6 +29,10 @@
         <tr>
             <td>Address</td>
             <td><input type="text" th:field="*{address}"></td>
+        </tr>
+        <tr>
+            <td>Avatar</td>
+            <td><input type="file" th:field="*{avatar}"></td>
         </tr>
       <tr>
         <td></td>
