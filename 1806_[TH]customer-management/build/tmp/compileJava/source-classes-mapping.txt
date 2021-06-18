@@ -1,0 +1,20 @@
+com/codegym/service/customer/ICustomerService.java
+ com.codegym.service.customer.ICustomerService
+com/codegym/repository/IGeneralRepository.java
+ com.codegym.repository.IGeneralRepository
+com/codegym/configuration/AppConfig.java
+ com.codegym.configuration.AppConfig
+com/codegym/model/Customer.java
+ com.codegym.model.Customer
+com/codegym/service/IGeneralService.java
+ com.codegym.service.IGeneralService
+com/codegym/service/customer/CustomerService.java
+ com.codegym.service.customer.CustomerService
+com/codegym/repository/customer/ICustomerRepository.java
+ com.codegym.repository.customer.ICustomerRepository
+com/codegym/configuration/AppInit.java
+ com.codegym.configuration.AppInit
+com/codegym/repository/customer/CustomerRepository.java
+ com.codegym.repository.customer.CustomerRepository
+com/codegym/controller/CustomerController.java
+ com.codegym.controller.CustomerController
