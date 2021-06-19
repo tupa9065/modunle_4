@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List customer</title>
+    <style>
+        #rowHover:hover{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<h3>List customer </h3>
+<p>
+    <a th:href="@{/customers/create}">Create new customer</a>
+</p>
+    <table style="width: 90% ;text-align: center;">
+        <tr style="font-size: x-large; font-weight: bold;  background: cadetblue">
+            <td>#</td>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Edit</td>
+            <td>Delete</td>
+        </tr>
+        <tr th:each="customer,row:${customers}" id ="rowHover">
+            <td th:text="${row.count}"></td>
+            <td th:text="${customer.getFirstName()}"></td>
+            <td th:text="${customer.getLastName()}"></td>
+            <td><a th:href="@{/customers/{id}/edit(id=${customer.getId()})}">Edit</a></td>
+            <td><a th:href="@{/customers/{id}/delete(id=${customer.getId()})}">Delete</a></td>
+        </tr>
+    </table>
+</body>
+</html>
