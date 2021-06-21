@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>List Category</h3>
+<p><a th:href="@{/category/showCreateForm}">create new </a></p>
+<table>
+    <tr class="tr_tile">
+        <td>#</td>
+        <td>Name</td>
+        <td class="td_edit">Edit</td>
+        <td class="td_delete">Delete</td>
+    </tr>
+    <tr class="tr_context" th:each="category,row:${categorise}">
+        <td th:text="${row.count}"></td>
+        <td th:text="${category.name}"></td>
+        <td><a th:href="@{/category/{id}/edit(id=${category.id})}">Edit</a> </td>
+        <td><a th:href="@{/category/{id}/delete(id=${category.id})}">Delete</a> </td>
+    </tr>
+</table>
+</body>
+</html>

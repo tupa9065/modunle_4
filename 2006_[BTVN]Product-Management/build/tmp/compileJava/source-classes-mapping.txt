@@ -1,0 +1,34 @@
+com/codegym/repository/category/ICategoryRepository.java
+ com.codegym.repository.category.ICategoryRepository
+com/codegym/IGeneral.java
+ com.codegym.IGeneral
+com/codegym/service/category/ICategoryService.java
+ com.codegym.service.category.ICategoryService
+com/codegym/model/category/Category.java
+ com.codegym.model.category.Category
+com/codegym/model/category/CategoryDAO.java
+ com.codegym.model.category.CategoryDAO
+com/codegym/repository/category/CategoryRepository.java
+ com.codegym.repository.category.CategoryRepository
+com/codegym/controller/CategoryController.java
+ com.codegym.controller.CategoryController
+com/codegym/service/category/CategoryService.java
+ com.codegym.service.category.CategoryService
+com/codegym/configuration/AppInit.java
+ com.codegym.configuration.AppInit
+com/codegym/configuration/AppConfig.java
+ com.codegym.configuration.AppConfig
+com/codegym/repository/product/IProductRepository.java
+ com.codegym.repository.product.IProductRepository
+com/codegym/service/product/IProductService.java
+ com.codegym.service.product.IProductService
+com/codegym/controller/ProductController.java
+ com.codegym.controller.ProductController
+com/codegym/repository/product/ProductRepository.java
+ com.codegym.repository.product.ProductRepository
+com/codegym/model/product/Product.java
+ com.codegym.model.product.Product
+com/codegym/model/product/ProductDAO.java
+ com.codegym.model.product.ProductDAO
+com/codegym/service/product/ProductService.java
+ com.codegym.service.product.ProductService
