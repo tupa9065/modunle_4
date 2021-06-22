@@ -53,7 +53,7 @@ public class ProvinceController {
         modelAndView.addObject("customers", customers);
         return modelAndView;
     }
-    @PostMapping("/delete")
+    @GetMapping("/{id}/delete")
     public  ModelAndView delete(@ModelAttribute Province province){
         customerService.setProvinceToNull(province);
         provinceService.remove(province.getId());
@@ -61,9 +61,17 @@ public class ProvinceController {
         modelAndView.addObject("provinces",provinceService.findAll());
         return modelAndView;
     }
+    @GetMapping("/{id}/edit")
+    public  ModelAndView delete(@PathVariable Long id){
+        ModelAndView modelAndView = new ModelAndView("/province/edit");
+        modelAndView.addObject("province",provinceService.findById(id));
+        modelAndView.addObject("message", null);
+
+        return modelAndView;
+    }
     @PostMapping("/edit")
     public ModelAndView edit (@ModelAttribute Province province){
-        ModelAndView modelAndView = new ModelAndView("/province/view");
+        ModelAndView modelAndView = new ModelAndView("/province/edit");
         provinceService.save(province);
         modelAndView.addObject("province",province);
         modelAndView.addObject("message", "chinh sua thanh cong");

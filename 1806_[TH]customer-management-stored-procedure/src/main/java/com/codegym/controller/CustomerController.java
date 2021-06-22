@@ -10,6 +10,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.Optional;
+
 @Controller
 @RequestMapping("/customers")
 public class CustomerController {
@@ -50,6 +52,24 @@ public class CustomerController {
         ModelAndView modelAndView = new ModelAndView("/customer/edit");
         modelAndView.addObject("customer",customerService.findById(id).get());
         return modelAndView;
+    }
+    @PostMapping("/edit")
+    public ModelAndView edit(@ModelAttribute Customer customer){
+        ModelAndView modelAndView = new ModelAndView("/customer/edit");
+        customerService.save(customer);
+        modelAndView.addObject("customer",customer);
+        return modelAndView;
+    }
+    @GetMapping("/{id}/delete")
+    public ModelAndView delete(@PathVariable Long id){
+        Optional<Customer> customer = customerService.findById(id);
+        if(customer.isPresent()){
+            customerService.remove(id);
+        }
+        else {
+            return new ModelAndView("/error.404");
+        }
+        return showList();
     }
 
 }

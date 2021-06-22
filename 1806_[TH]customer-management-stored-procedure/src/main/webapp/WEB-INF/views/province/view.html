@@ -5,28 +5,22 @@
     <title>info </title>
 </head>
 <body>
-<h3>Info </h3>
-
-<form action="/provinces/edit" method="post" th:object="${province}">
-    <h1>View province: <span th:text="${province.name}"></span></h1>
-    <a th:href="@{/provinces}">Back to list customer</a>
+<p><a th:href="@{/provinces}">Back to list </a></p>
+<h3>list customer of : <span th:text="${province.name}"></span></h3>
     <table border="1">
         <tr>
+            <th>#</th>
             <th>First name</th>
             <th>Last name</th>
         </tr>
-        <th:block th:each="customer : ${customers}">
+        <th:block th:each="customer,row : ${customers}">
             <tr>
+                <td th:text="${row.count}"></td>
                 <td th:text="${customer.firstName}"></td>
                 <td th:text="${customer.lastName}"></td>
             </tr>
         </th:block>
     </table>
-    <button>edit</button>
-</form>
-<form action="/provinces/delete" method="post" th:object="${province}">
-    <input type="hidden" th:field="${province.id}">
-    <button>delete</button>
 </form>
 </body>
 </html>

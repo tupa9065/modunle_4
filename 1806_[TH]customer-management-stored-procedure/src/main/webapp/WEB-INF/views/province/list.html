@@ -6,17 +6,22 @@
 </head>
 <body>
 <h3>List Province</h3>
+<p>
+  <a th:href="@{/home}">>>Home<<</a>
+</p>
 <p><a th:href="@{/provinces/create}">create new</a></p>
 <table>
   <tr>
     <td>#</td>
     <td>Name</td>
+    <td>Edit</td>
+    <td>Delete</td>
   </tr>
   <tr th:each="provice,row:${provinces}">
     <td th:text="${row.count}"></td>
     <td  ><a th:href="@{/provinces/{id}/view(id=${provice.id})}" th:text="${provice.name}" ></a></td>
-    <td></td>
-    <td></td>
+    <td><a th:href="@{/provinces/{id}/edit(id=${provice.id})}"  >Edit</a></td>
+    <td><a th:href="@{/provinces/{id}/delete(id=${provice.id})}" >Delete</a></td>
   </tr>
 </table>
 </body>
