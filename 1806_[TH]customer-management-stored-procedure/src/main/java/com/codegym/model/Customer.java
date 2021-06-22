@@ -1,9 +1,6 @@
 package com.codegym.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Customer {
@@ -12,6 +9,10 @@ public class Customer {
     private Long id;
     private String firstName;
     private String lastName;
+
+    @ManyToOne
+    @JoinColumn(name = "province_id")
+    private Province province;
 
     public Customer() {
     }
@@ -43,5 +44,13 @@ public class Customer {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public Province getProvince() {
+        return province;
+    }
+
+    public void setProvince(Province province) {
+        this.province = province;
     }
 }
