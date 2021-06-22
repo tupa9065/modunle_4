@@ -17,6 +17,12 @@
 <p>
     <a th:href="@{/customers/create}">>>Create new customer<<</a>
 </p>
+<form>
+    Search by first name:
+    <input name="search" type="text"/>
+    <input type="submit" value="Search"/>
+</form>
+
     <table style="width: 90% ;text-align: center;">
         <tr style="font-size: x-large; font-weight: bold;  background: cadetblue">
             <td>#</td>
@@ -36,5 +42,10 @@
             <td><a th:href="@{/customers/{id}/delete(id=${customer.getId()})}">Delete</a></td>
         </tr>
     </table>
+<div>
+    <a th:href="@{'/customers'(page=${customers.number - 1})}" th:if="${customers.hasPrevious()}">Previous</a>
+    <span th:text="${customers.number + 1}"></span>/<span th:text="${customers.totalPages}"></span>
+    <a th:href="@{'/customers'(page=${customers.number + 1})}" th:if="${customers.hasNext()}">Next</a>
+</div>
 </body>
 </html>

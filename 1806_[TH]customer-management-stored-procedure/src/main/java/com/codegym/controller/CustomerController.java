@@ -6,6 +6,8 @@ import com.codegym.service.IGeneralService;
 import com.codegym.service.customer.ICustomerService;
 import com.codegym.service.provice.IProvinceService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
@@ -25,10 +27,15 @@ public class CustomerController {
         return provinceService.findAll();
     }
     @GetMapping
-    public ModelAndView showList(){
+    public ModelAndView showList(@RequestParam("search") Optional<String> search,Pageable pageable){
+        Page<Customer> customers;
+        if(search.isPresent()){
+            customers = customerService.findAllByFirstNameContaining(search.get(), pageable);
+        } else {
+            customers = customerService.findAll(pageable);
+        }
         ModelAndView modelAndView = new ModelAndView("/customer/list");
-        Iterable<Customer> customers = customerService.findAll();
-        modelAndView.addObject("customers",customers);
+        modelAndView.addObject("customers", customers);
         return modelAndView;
     }
     @GetMapping("/create")
@@ -61,15 +68,15 @@ public class CustomerController {
         return modelAndView;
     }
     @GetMapping("/{id}/delete")
-    public ModelAndView delete(@PathVariable Long id){
+    public String delete(@PathVariable Long id){
         Optional<Customer> customer = customerService.findById(id);
         if(customer.isPresent()){
             customerService.remove(id);
         }
         else {
-            return new ModelAndView("/error.404");
+            return "/error.404";
         }
-        return showList();
+        return "redirect:/customers";
     }
 
 }
