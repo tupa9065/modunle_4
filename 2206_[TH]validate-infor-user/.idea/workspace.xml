@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="362a02ad-e613-431d-97e8-2688155b1391" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/configuration/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/6.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/6.8/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/src/main/java/controller/transformController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/src/main/webapp/WEF-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/src/main/webapp/WEF-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/src/main/webapp/WEF-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/src/main/webapp/WEF-INF/views/input.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/src/main/webapp/WEF-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[TH]spring-greeting/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1406_[TH]spring-greeting/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1506_[TH]Customer-Management/src/main/java/com/codegym/configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1506_[TH]Customer-Management/src/main/java/com/codegym/configuration/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1506_[TH]Customer-Management/src/main/java/com/codegym/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1506_[TH]Customer-Management/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1506_[TH]Customer-Management/src/main/webapp/WEB-INF/views/customer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../1506_[TH]Customer-Management/src/main/webapp/WEB-INF/views/customer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1606_[TH]spring-mvc-form-tutorial/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1606_[TH]spring-mvc-form-tutorial/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/configuration/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/configuration/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/configuration/AppInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/service/HibernateCommentServiceIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/service/HibernateCommentServiceIml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/service/ICommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/service/ICommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/resources/hibernate.conf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1806_[TH]customer-management-stored-procedure/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../1806_[TH]customer-management-stored-procedure/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1806_[TH]customer-management-stored-procedure/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../1806_[TH]customer-management-stored-procedure/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1806_[TH]customer-management-stored-procedure/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../1806_[TH]customer-management-stored-procedure/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1806_[TH]customer-management/src/main/webapp/WEB-INF/views/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../1806_[TH]customer-management/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/build/libs/2006_[BTVN]Product-Management-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/build/libs/2006_[BTVN]Product-Management-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/src/main/webapp/WEB-INF/views/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/src/main/webapp/WEB-INF/views/product/list.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="2206_[TH]validate-infor-user" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1uIVmjS0pyoC2HNFbfpazg1fzQH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\modunle 4\2206_[TH]validate-infor-user\src\main\webapp\WEB-INF\views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.46" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.46" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/user" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.example : 2206_[TH]validate-infor-user-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="1c384f1e-dfc9-476e-abc8-449c314c2fa1" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49857" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.example : 2206_[TH]validate-infor-user-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="362a02ad-e613-431d-97e8-2688155b1391" name="Default Changelist" comment="" />
+      <created>1624353265018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624353265018</updated>
+      <workItem from="1624353266253" duration="1836000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
