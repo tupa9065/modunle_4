@@ -28,6 +28,7 @@
             <td>#</td>
             <td>First Name</td>
             <td>Last Name</td>
+            <td>Email</td>
             <td>Province</td>
             <td>View</td>
             <td>Edit</td>
@@ -37,6 +38,7 @@
             <td th:text="${row.count}"></td>
             <td th:text="${customer.getFirstName()}"></td>
             <td th:text="${customer.getLastName()}"></td>
+            <td th:text="${customer.getEmail()}"></td>
             <td th:if="${customer.province}" th:text="${customer.province.name}"></td>
             <td th:unless="${customer.province}"></td>
             <td><a th:href="@{/customers/{id}/view(id=${customer.getId()})}">View</a></td>

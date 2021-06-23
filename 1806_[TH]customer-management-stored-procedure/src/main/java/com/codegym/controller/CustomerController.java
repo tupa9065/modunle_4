@@ -1,5 +1,6 @@
 package com.codegym.controller;
 
+import com.codegym.exception.DuplicateEmailException;
 import com.codegym.model.Customer;
 import com.codegym.model.Province;
 import com.codegym.service.IGeneralService;
@@ -8,6 +9,7 @@ import com.codegym.service.provice.IProvinceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
@@ -31,8 +33,12 @@ public class CustomerController {
         }
         return null;
     }
+    @ExceptionHandler(DuplicateEmailException.class)
+    public ModelAndView showInputNotAcceptable() {
+        return new ModelAndView("/customer/inputs-not-acceptable");
+    }
     @GetMapping
-    public ModelAndView showList(@RequestParam("search") Optional<String> search,Pageable pageable){
+    public ModelAndView showList(@RequestParam("search") Optional<String> search, @PageableDefault(size = 5) Pageable pageable){
         Page<Customer> customers = null;
         if(search.isPresent()){
             try {
@@ -59,13 +65,13 @@ public class CustomerController {
         return modelAndView;
     }
     @PostMapping("/save")
-    public ModelAndView createNew(@ModelAttribute Customer customer){
-        ModelAndView modelAndView = new ModelAndView("/customer/create");
-        customerService.save(customer);
-        modelAndView.addObject("customer", new Customer());
-        modelAndView.addObject("message", "tao moi thanh cong");
-        modelAndView.addObject("green","green");
-        return modelAndView;
+    public ModelAndView createNew(@ModelAttribute Customer customer) throws DuplicateEmailException {
+            customerService.save(customer);
+            ModelAndView modelAndView = new ModelAndView("/customer/create");
+            modelAndView.addObject("customer", new Customer());
+            modelAndView.addObject("message", "tao moi thanh cong");
+            modelAndView.addObject("green","green");
+            return modelAndView;
     }
     @GetMapping("/{id}/view")
     public ModelAndView showViewForm(@PathVariable Long id){
@@ -87,11 +93,12 @@ public class CustomerController {
         return modelAndView;
     }
     @PostMapping("/edit")
-    public ModelAndView edit(@ModelAttribute Customer customer){
+    public ModelAndView edit(@ModelAttribute Customer customer) throws DuplicateEmailException {
         ModelAndView modelAndView = new ModelAndView("/customer/edit");
-        customerService.save(customer);
-        modelAndView.addObject("customer",customer);
-        return modelAndView;
+            customerService.save(customer);
+            modelAndView.addObject("customer",customer);
+            return modelAndView;
+
     }
     @GetMapping("/{id}/delete")
     public String delete(@PathVariable Long id){

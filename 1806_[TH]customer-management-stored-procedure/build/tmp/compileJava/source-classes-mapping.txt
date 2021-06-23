@@ -4,18 +4,18 @@ com/codegym/configuration/AppConfig.java
  com.codegym.configuration.AppConfig
 com/codegym/service/provice/ProvinceService.java
  com.codegym.service.provice.ProvinceService
-com/codegym/controller/CustomerController.java
- com.codegym.controller.CustomerController
+com/codegym/service/customer/ICustomerService.java
+ com.codegym.service.customer.ICustomerService
 com/codegym/service/provice/IProvinceService.java
  com.codegym.service.provice.IProvinceService
 com/codegym/service/IGeneralService.java
  com.codegym.service.IGeneralService
 com/codegym/controller/HomeController.java
  com.codegym.controller.HomeController
-com/codegym/repository/ICustomerRepository.java
- com.codegym.repository.ICustomerRepository
-com/codegym/model/Province.java
- com.codegym.model.Province
+com/codegym/grandemonstration/Logger.java
+ com.codegym.grandemonstration.Logger
+com/codegym/service/customer/CustomerService.java
+ com.codegym.service.customer.CustomerService
 com/codegym/configuration/AppInit.java
  com.codegym.configuration.AppInit
 com/codegym/controller/ProvinceController.java
@@ -24,9 +24,11 @@ com/codegym/formatter/ProvinceFormatter.java
  com.codegym.formatter.ProvinceFormatter
 com/codegym/repository/IProvinceRepository.java
  com.codegym.repository.IProvinceRepository
-com/codegym/service/customer/ICustomerService.java
- com.codegym.service.customer.ICustomerService
-com/codegym/service/customer/CustomerService.java
- com.codegym.service.customer.CustomerService
-com/codegym/grandemonstration/Logger.java
- com.codegym.grandemonstration.Logger
+com/codegym/repository/ICustomerRepository.java
+ com.codegym.repository.ICustomerRepository
+com/codegym/exception/DuplicateEmailException.java
+ com.codegym.exception.DuplicateEmailException
+com/codegym/model/Province.java
+ com.codegym.model.Province
+com/codegym/controller/CustomerController.java
+ com.codegym.controller.CustomerController
