@@ -16,7 +16,8 @@ public class CustomerService implements ICustomerService {
     private ICustomerRepository customerRepository;
 
     @Override
-    public Iterable<Customer> findAll() {
+    public Iterable<Customer> findAll() throws Exception {
+
         return customerRepository.findAll();
     }
 
@@ -46,13 +47,23 @@ public class CustomerService implements ICustomerService {
     }
 
     @Override
-    public Page<Customer> findAll(Pageable pageable) {
+    public Page<Customer> findAll(Pageable pageable)  {
+
         return customerRepository.findAll(pageable);
     }
 
     @Override
     public Page<Customer> findAllByFirstNameContaining(String firstname, Pageable pageable) {
         return customerRepository.findAllByFirstNameContaining(firstname,pageable);
+    }
+
+    @Override
+    public Optional<Customer> findOne(Long id) throws Exception {
+        Optional<Customer> customerOptional = customerRepository.findById(id);
+        if (!customerOptional.isPresent()) {
+            throw new Exception("customer not found!");
+        }
+        return customerOptional;
     }
 
 

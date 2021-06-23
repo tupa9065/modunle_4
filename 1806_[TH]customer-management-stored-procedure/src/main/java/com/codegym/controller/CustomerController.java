@@ -24,15 +24,28 @@ public class CustomerController {
 
     @ModelAttribute("provinces")
     public Iterable<Province> provinces(){
-        return provinceService.findAll();
+        try {
+            return provinceService.findAll();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
     }
     @GetMapping
     public ModelAndView showList(@RequestParam("search") Optional<String> search,Pageable pageable){
-        Page<Customer> customers;
+        Page<Customer> customers = null;
         if(search.isPresent()){
-            customers = customerService.findAllByFirstNameContaining(search.get(), pageable);
+            try {
+                customers = customerService.findAllByFirstNameContaining(search.get(), pageable);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         } else {
-            customers = customerService.findAll(pageable);
+            try {
+                customers = customerService.findAll(pageable);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
         ModelAndView modelAndView = new ModelAndView("/customer/list");
         modelAndView.addObject("customers", customers);
@@ -53,6 +66,19 @@ public class CustomerController {
         modelAndView.addObject("message", "tao moi thanh cong");
         modelAndView.addObject("green","green");
         return modelAndView;
+    }
+    @GetMapping("/{id}/view")
+    public ModelAndView showViewForm(@PathVariable Long id){
+        try {
+            ModelAndView modelAndView = new ModelAndView("/customer/view");
+            Optional<Customer> customerOptional = customerService.findOne(id);
+            modelAndView.addObject("customer",customerOptional.get());
+            return modelAndView;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return new ModelAndView("redirect:/customers");
     }
     @GetMapping("/{id}/edit")
     public ModelAndView showEditForm(@PathVariable Long id){

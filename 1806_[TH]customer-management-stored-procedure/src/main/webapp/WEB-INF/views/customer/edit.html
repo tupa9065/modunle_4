@@ -28,10 +28,7 @@
                 th:value="${province.id}"
                 th:text="${province.name}"
                 th:if="${province.id} == ${customer.province.id}" selected></option>
-        <option th:each="province:${provinces}"
-                th:value="${province.id}"
-                th:text="${province.name}"
-                th:unless="${province.id} == ${customer.province.id}" ></option>
+
       </select></td>
     </tr>
     <tr>

@@ -22,7 +22,11 @@ public class ProvinceController {
     @GetMapping
     public ModelAndView showListForm(){
         ModelAndView modelAndView = new ModelAndView("/province/list");
-        modelAndView.addObject("provinces",provinceService.findAll());
+        try {
+            modelAndView.addObject("provinces",provinceService.findAll());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return modelAndView;
     }
     @GetMapping("/create")
@@ -58,7 +62,11 @@ public class ProvinceController {
         customerService.setProvinceToNull(province);
         provinceService.remove(province.getId());
         ModelAndView modelAndView = new ModelAndView("/province/list");
-        modelAndView.addObject("provinces",provinceService.findAll());
+        try {
+            modelAndView.addObject("provinces",provinceService.findAll());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return modelAndView;
     }
     @GetMapping("/{id}/edit")
