@@ -1,10 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>List customer</title>
+    <style>
+        #rowHover:hover{
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-$END$
+<h3>List customer </h3>
+<p>
+    <a th:href="@{/home}">>>Home<<</a>
+</p>
+<p>
+    <a th:href="@{/book/create}">>>Create new <<</a>
+</p>
+<form>
+    Search by first name:
+    <input name="search" type="text"/>
+    <input type="submit" value="Search"/>
+</form>
+
+<table style="width: 90% ;text-align: center;">
+    <tr style="font-size: x-large; font-weight: bold;  background: cadetblue">
+        <td>#</td>
+        <td>Name</td>
+        <td>amount</td>
+        <td>View</td>
+        <td>Edit</td>
+        <td>Delete</td>
+    </tr>
+    <tr th:each="book,row:${books}" id ="rowHover">
+        <td th:text="${row.count}"></td>
+        <td th:text="${book.name}"></td>
+        <td th:text="${book.amount}"></td>
+        <td><a th:href="@{/book/{id}/view(id=${book.getId()})}">View</a></td>
+        <td><a th:href="@{/book/{id}/edit(id=${book.getId()})}">Edit</a></td>
+        <td><a th:href="@{/book/{id}/delete(id=${book.getId()})}">Delete</a></td>
+    </tr>
+</table>
+<div>
+    <a th:href="@{'/book'(page=${books.number - 1})}" th:if="${books.hasPrevious()}">Previous</a>
+    <span th:text="${books.number + 1}"></span>/<span th:text="${books.totalPages}"></span>
+    <a th:href="@{'/book'(page=${books.number + 1})}" th:if="${books.hasNext()}">Next</a>
+</div>
 </body>
 </html>

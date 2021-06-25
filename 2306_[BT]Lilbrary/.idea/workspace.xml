@@ -4,7 +4,143 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5e68d9b-49ef-4e5c-92cc-71d0b8d70a49" name="Default Changelist" comment="" />
+    <list default="true" id="e5e68d9b-49ef-4e5c-92cc-71d0b8d70a49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/aspect/BookExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/controller/BorrowCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/exception/ServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/service/borrow/BorrowCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/service/borrow/IBorrowCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/6.8/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/6.8/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/6.8/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.idea/dataSources/ae6926a0-8ef6-4882-a4f9-e3ff956a9c4d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.idea/dataSources/ae6926a0-8ef6-4882-a4f9-e3ff956a9c4d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.idea/dataSources/ae6926a0-8ef6-4882-a4f9-e3ff956a9c4d/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.idea/dataSources/ae6926a0-8ef6-4882-a4f9-e3ff956a9c4d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.idea/dataSources/ae6926a0-8ef6-4882-a4f9-e3ff956a9c4d/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/build/libs/2406_[TH]shoping-cart-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/src/main/java/com/codegym/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/src/main/java/com/codegym/configuration/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/src/main/java/com/codegym/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/src/main/java/com/codegym/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/src/main/java/com/codegym/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/src/main/webapp/WEB-INF/views/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/src/main/webapp/WEB-INF/views/error.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2406_[TH]shoping-cart/src/main/webapp/WEB-INF/views/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/6.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/6.8/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/src/main/java/controller/transformController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/src/main/webapp/WEF-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/src/main/webapp/WEF-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/src/main/webapp/WEF-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/src/main/webapp/WEF-INF/views/input.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[BT]USD_to_VNĐ/src/main/webapp/WEF-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1406_[TH]spring-greeting/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1406_[TH]spring-greeting/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1506_[TH]Customer-Management/src/main/java/com/codegym/configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1506_[TH]Customer-Management/src/main/java/com/codegym/configuration/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1506_[TH]Customer-Management/src/main/java/com/codegym/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1506_[TH]Customer-Management/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1506_[TH]Customer-Management/src/main/webapp/WEB-INF/views/customer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../1506_[TH]Customer-Management/src/main/webapp/WEB-INF/views/customer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1606_[TH]spring-mvc-form-tutorial/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1606_[TH]spring-mvc-form-tutorial/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/configuration/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/configuration/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/configuration/AppInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/service/HibernateCommentServiceIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/service/HibernateCommentServiceIml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/service/ICommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/java/com/codegym/service/ICommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/resources/hibernate.conf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../1706_[BT]ImageOfDay/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1806_[TH]customer-management/src/main/webapp/WEB-INF/views/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../1806_[TH]customer-management/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/build/libs/2006_[BTVN]Product-Management-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/build/libs/2006_[BTVN]Product-Management-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/src/main/webapp/WEB-INF/views/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../2006_[BTVN]Product-Management/src/main/webapp/WEB-INF/views/product/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2206_[BT]Validate_login/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2206_[BT]Validate_login/.idea/modules/2206_[BT]Validate_login.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/java/com/codegym/configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/java/com/codegym/configuration/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/java/com/codegym/configuration/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/java/com/codegym/configuration/AppInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/java/com/codegym/controller/PhoneNumberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/java/com/codegym/controller/PhoneNumberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/java/com/codegym/model/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/java/com/codegym/model/PhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/resources/validation-message.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/resources/validation-message.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/webapp/WEB-INF/views/addNewNumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/webapp/WEB-INF/views/addNewNumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/webapp/WEB-INF/views/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/../2206_[TH]Custom-phone-validation/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2206_[TH]validate-infor-user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2206_[TH]validate-infor-user/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codeGym/configruation/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codeGym/configruation/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codeGym/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codeGym/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codeGym/model/BorrowCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codeGym/model/BorrowCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/2306_[BT]Lilbrary-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/2306_[BT]Lilbrary-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/configruation/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/configruation/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/configruation/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/configruation/AppInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/repository/IBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/repository/IBookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/repository/IBorrowCardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/repository/IBorrowCardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/repository/ICustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/repository/ICustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/service/IGeneralService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/service/IGeneralService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/service/book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/service/book/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/service/book/IBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/service/book/IBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/service/borrow/BorrowService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/service/borrow/IBorrowService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/service/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/service/customer/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeGym/service/customer/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeGym/service/customer/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2406_[TH]Save_user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2406_[TH]Save_user/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,5 +151,198 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="2306_[BT]Lilbrary" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1uLBjnjjPHNk7sHWGt7MpZ40lco" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/codeGym" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\modunle 4\2306_[BT]Lilbrary\src\main\java\com\codeGym" />
+      <recent name="C:\Users\Administrator\Desktop\modunle 4\2306_[BT]Lilbrary\src\main\java\com\codeGym\exception" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.46" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.46" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.example : 2306_[BT]Lilbrary-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="0d0326ef-4967-40b8-bed8-556855b391c4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60815" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.example : 2306_[BT]Lilbrary-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5e68d9b-49ef-4e5c-92cc-71d0b8d70a49" name="Default Changelist" comment="" />
+      <created>1624435135925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624435135925</updated>
+      <workItem from="1624435137426" duration="9204000" />
+      <workItem from="1624448523957" duration="1834000" />
+      <workItem from="1624498918600" duration="3523000" />
+      <workItem from="1624573427393" duration="5294000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
 </project>
