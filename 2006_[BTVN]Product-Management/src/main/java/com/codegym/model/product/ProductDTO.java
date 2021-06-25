@@ -2,7 +2,7 @@ package com.codegym.model.product;
 
 import org.springframework.web.multipart.MultipartFile;
 
-public class ProductDAO {
+public class ProductDTO {
     Long id;
     String name;
     float price;
@@ -10,10 +10,10 @@ public class ProductDAO {
     MultipartFile avatar;
     Long category_id;
 
-    public ProductDAO() {
+    public ProductDTO() {
     }
 
-    public ProductDAO(String name, float price, String description, MultipartFile avatar ,Long category_id) {
+    public ProductDTO(String name, float price, String description, MultipartFile avatar , Long category_id) {
         this.name = name;
         this.price = price;
         this.description = description;

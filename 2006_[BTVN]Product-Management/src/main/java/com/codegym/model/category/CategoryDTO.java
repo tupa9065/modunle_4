@@ -1,13 +1,13 @@
 package com.codegym.model.category;
 
-public class CategoryDAO implements Cloneable{
+public class CategoryDTO implements Cloneable{
     Long Id;
     String Name;
 
-    public CategoryDAO() {
+    public CategoryDTO() {
     }
 
-    public CategoryDAO(String name) {
+    public CategoryDTO(String name) {
         Name = name;
     }
 
