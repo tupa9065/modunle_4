@@ -1,0 +1,40 @@
+com/codegym/service/user/IUserService.java
+ com.codegym.service.user.IUserService
+com/codegym/configuration/AppConfig.java
+ com.codegym.configuration.AppConfig
+com/codegym/service/JwtService.java
+ com.codegym.service.JwtService
+com/codegym/configuration/CustomAccessDeniedHandler.java
+ com.codegym.configuration.CustomAccessDeniedHandler
+com/codegym/model/UserPrincipal.java
+ com.codegym.model.UserPrincipal
+com/codegym/model/JWTResponse.java
+ com.codegym.model.JWTResponse
+com/codegym/repository/IUserRepository.java
+ com.codegym.repository.IUserRepository
+com/codegym/model/User.java
+ com.codegym.model.User
+com/codegym/configuration/RestAuthenticationEntryPoint.java
+ com.codegym.configuration.RestAuthenticationEntryPoint
+com/codegym/configuration/SecurityInit.java
+ com.codegym.configuration.SecurityInit
+com/codegym/service/IGeneralService.java
+ com.codegym.service.IGeneralService
+com/codegym/model/Role.java
+ com.codegym.model.Role
+com/codegym/configuration/AppInit.java
+ com.codegym.configuration.AppInit
+com/codegym/configuration/JwtAuthenticationFilter.java
+ com.codegym.configuration.JwtAuthenticationFilter
+com/codegym/service/role/RoleService.java
+ com.codegym.service.role.RoleService
+com/codegym/repository/IRoleRepository.java
+ com.codegym.repository.IRoleRepository
+com/codegym/service/role/IRoleService.java
+ com.codegym.service.role.IRoleService
+com/codegym/controller/AuthController.java
+ com.codegym.controller.AuthController
+com/codegym/service/user/UserService.java
+ com.codegym.service.user.UserService
+com/codegym/configuration/SecurityConfig.java
+ com.codegym.configuration.SecurityConfig
